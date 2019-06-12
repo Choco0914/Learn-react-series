@@ -9,3 +9,4 @@
 5. Searching for Videos [x]
 6. Search Videos with Axios [x]
 7. Updating State with Fetched Data [x]
+8. Passing State as Props [x]
