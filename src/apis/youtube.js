@@ -12,13 +12,12 @@ const youtubeApi = axios.create({
 });
 
 const youtube = {
-  getSearch: term => {
+  getSearch: term =>
     youtubeApi.get("/search", {
       params: {
         q: term
       }
-    });
-  }
+    })
 };
 
 export default youtube;
