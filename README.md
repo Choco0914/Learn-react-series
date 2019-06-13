@@ -15,3 +15,4 @@
 11. Conditional Rendering [x]
 12. Styling the VideoDetail [x]
 13. Display a Video Player [x]
+14. Styling Video Player [x]
