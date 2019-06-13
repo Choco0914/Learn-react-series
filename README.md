@@ -13,3 +13,5 @@
 9. Rendering a List of Videos [x]
 10. Deeply Nested Callbacks [x]
 11. Conditional Rendering [x]
+12. Styling the VideoDetail [x]
+13. Display a Video Player [x]
