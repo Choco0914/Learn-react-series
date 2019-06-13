@@ -16,3 +16,4 @@
 12. Styling the VideoDetail [x]
 13. Display a Video Player [x]
 14. Styling Video Player [x]
+15. Defaulting Video Selection [x]

@@ -2,8 +2,13 @@
   display: flex !important;
   align-items: center !important;
   cursor: pointer;
+  max-height: 114px;
 }
 
 .video-item.item img {
   max-width: 180px;
+}
+
+.video-item.item div {
+  min-width: 60px;
 }

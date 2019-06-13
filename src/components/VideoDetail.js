@@ -1,8 +1,8 @@
 import React from "react";
 
-const VideoDetail = ({ video }) => {
+const VideoDetail = ({ video, searched }) => {
   if (!video) {
-    return <div>Loading...</div>;
+    return <div>{searched ? "...loading" : ""}</div>;
   }
   const {
     id: { videoId }
@@ -14,7 +14,12 @@ const VideoDetail = ({ video }) => {
   return (
     <div>
       <div className="ui embed">
-        <iframe src={videoSrc} title={title} />
+        <iframe
+          allowFullScreen="allowfullscreen"
+          frameBorder="0"
+          src={videoSrc}
+          title={title}
+        />
       </div>
       <div className="ui segment">
         <h4 className="ui header">{title}</h4>
